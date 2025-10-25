@@ -22286,6 +22286,7 @@ GameObject:
   - component: {fileID: 480742936}
   - component: {fileID: 480742940}
   - component: {fileID: 480742941}
+  - component: {fileID: 480742942}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -22469,8 +22470,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92a7856b445a63e438057f6c6610a406, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInput: {fileID: 480742940}
   jumpActionRef: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveActionRef: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+--- !u!114 &480742942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480742935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5b7976f35c07c4aa068320e76be369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listenPlayerInput: {fileID: 480742941}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
